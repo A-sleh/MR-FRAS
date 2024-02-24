@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Fras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Dancing+Script:wght@400;500;600;700&family=Italianno&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- the main page css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- the font awosem page css-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- the noramlise the page css-->
+    <link rel="stylesheet" href="css/normal.css">
+</head>
+<body>
+    <!-- start informations-->
+    <div class="informations home">
+        <div class="container">
+            <div class="icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="my-acounts">
+                <p><i class="fa-regular fa-envelope"></i> abdoalseh34@gmail.com</p>
+                <p><i class="fas fa-phone-volume fa-fw"></i> 0956411461</p>
+            </div>
+        </div>
+    </div>
+    <!-- end informations-->
+    <!-- start header-->
+    <div class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <h2>Mr.</h2>
+                <h3>Fras</h3>
+            </div>
+            <div class="toggle" onclick="sid()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="trans" id="trans" ></div>
+            <ul class="nav" id="nav">
+                <i class="fa-solid fa-xmark" onclick="closesid()"></i>
+                <li><a href="#" data-url="home">home</a></li>
+                <li><a href="#" data-url="history">about</a></li>
+                <li><a href="#" data-url="food">services</a></li>
+                <li><a href="#" data-url="food-manu">our food</a></li>
+                <li><a href="#" data-url="contact">contact</a></li>
+                <span><a href="#" >reservations</a></span>
+            </ul>
+        </div>
+    </div>
+    <!-- end header-->
+    <!-- start landing-->
+    <div class="landing">
+        <div class="container">
+            <div class="infos">
+                <div class="close-button">Close</div>
+                <div class="box hid">
+                    <div class="inf">
+                        <img src="./img/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>35$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur </span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/markus-winkler-WHtVB-RiW2I-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>55$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/anna-bratiychuk-3w2AuRZeeSU-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>100$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/1692971276872.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>25$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/fernando-andrade-_P76trHTWDE-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>67$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inf">
+                        <img src="./img/emile-mbunzama-cLpdEA23Z44-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>32$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/jannis-brandt-fvN2OHH1dqk-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>12$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/leo-roza-P_z_xlMGuEk-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>54$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/kobby-mendez-WZGdx3K3_tw-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>44$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf">
+                        <img src="./img/pushpak-dsilva-xMbtXlkqjt4-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>32$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="welcom-page">
+                <h1>Delicious Food Experience</h1>
+            <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum unde ut omnis eligendi maiores tempore debitis fuga inventore sint nemo.</p>
+            <div class="botton"><a href="#">Get menu</a></div>
+            <ul class="info">
+                <li>
+                    <i class="fa-solid fa-calendar-days fa-fw "></i>
+                    <p>April 11/2023</p>
+                </li>
+                <li>
+                    <i class="far fa-clock fa-fw"></i>
+                    <p>09:00PM</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-user"></i>
+                    <p>2 person</p>
+                </li>
+                <li>
+                    <a href="#">See More</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end landing-->
+    <!-- start footer of lanfing-->
+    <div class="footer-landing">
+        <div class="box">
+            <i class="fa-solid fa-burger"></i>
+            <div class="info">
+                <h3>Fast Food</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, pariatur.</p>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-cake-candles"></i>
+            <div class="info">
+                <h3>Dessert</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, pariatur.</p>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-champagne-glasses"></i>
+            <div class="info">
+                <h3>Drinks & Juice </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, pariatur.</p>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-bacon"></i>
+            <div class="info">
+                <h3>BreakFast</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, pariatur.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer of lanfing-->
+    <!-- start history-->
+    <div class="history">
+        <div class="container">
+            <h3>our history</h3>
+            <h1>delicious and good taste</h1>
+            <div class="info">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut facere tenetur blanditiis doloribus suscipit optio ratione quasi possimus autem, sit corporis adipisci, magni quod neque. Numquam porro incidunt unde animi officiis voluptas temporibus doloribus obcaecati expedita cum vitae ab consectetur autem sed ut, fugiat aperiam suscipit nihil adipisci quos magnam?</p>
+                <div class="botton"><a href="#">Read more about us</a></div>
+            </div>
+           
+        </div>
+    </div>
+    <!-- end history-->
+    <!-- start our food manu-->
+    <div class="food-manu">
+        <div class="container">
+            <h1>our food manu</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum pariatur numquam <br>qui recusandae facere molestiae.</p>
+            <ul>
+                <li><a href="#" data-type="all" class="active">all item</a></li>
+                <li><a href="#" data-type="breakFast">breakFast</a></li>
+                <li><a href="#" data-type="lunch">lunch</a></li>
+                <li><a href="#" data-type="party">party</a></li>
+                <li><a href="#" data-type="dinner">dinner</a></li>
+                <li><a href="#" data-type="drink">drink</a></li>
+                <li><a href="#" data-type="salad">salad</a></li>
+                <li><a href="#" data-type="fastFood">fastFood</a></li>
+            </ul>
+            <div class="infos">
+                <div class="box">
+                    <div class="inf all salad">
+                        <img src="./img/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>35$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur </span>
+                        </div>
+                    </div>
+                    <div class="inf all lunch">
+                        <img src="./img/markus-winkler-WHtVB-RiW2I-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>55$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all party">
+                        <img src="./img/anna-bratiychuk-3w2AuRZeeSU-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>100$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all fastFood">
+                        <img src="./img/1692971276872.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>25$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all drink">
+                        <img src="./img/kobby-mendez-WZGdx3K3_tw-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>44$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inf all drink">
+                        <img src="./img/emile-mbunzama-cLpdEA23Z44-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>32$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all fastFood">
+                        <img src="./img/jannis-brandt-fvN2OHH1dqk-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>12$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all fastFood">
+                        <img src="./img/leo-roza-P_z_xlMGuEk-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>54$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all breakFast">
+                        <img src="./img/fernando-andrade-_P76trHTWDE-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>67$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                    <div class="inf all dinner">
+                        <img src="./img/pushpak-dsilva-xMbtXlkqjt4-unsplash.jpg" alt="">
+                        <div class="about">
+                            <h3>fried ipsum dolor sit <i>_____</i>32$</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur .</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our food manu-->
+    <!-- start contact--> 
+    <div class="contact">
+        <div class="container">
+            <div class="info">
+                <h2>BE ALWAYS UPDATED WITH US</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</p>
+                <h3>call us : 0956411461</h3>
+            </div>
+            <form action="">
+                <input type="text" name="text" id="" placeholder="Enter Your Message">
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    <!-- end contact-->
+    <!-- start main food-->
+    <div class="food">
+        <div class="container">
+            <h1>latest nars and blags</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus minus nisi quo illo impedit quaerat maxime quod cum quis.</p>
+            <div class="img">
+                <div class="main-img">
+                    <img src="./img/1692971276872.jpg" alt="" class="x">
+                </div>
+                <div class="imgs">
+                    <img src="./img/1692971276872.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/lefteris-kallergis-_TLKIVSW6Do-unsplash.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/pushpak-dsilva-xMbtXlkqjt4-unsplash.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/1692971276896.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/kobby-mendez-WZGdx3K3_tw-unsplash.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/leo-roza-P_z_xlMGuEk-unsplash.jpg" alt="" onclick="ph(this.src) ">
+                    <img src="./img/engin-akyurt-ZcnzOrZpf9E-unsplash.jpg" alt="" onclick="ph(this.src) ">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main food-->
+    <!-- start information-->
+    <div class="information">
+        <div class="container">
+            <div class="info1"> 
+                <h1>cliant foodbock</h1>
+                <div class="imgs">
+                    <img src="./img/1.jpg" alt="">
+                    <img src="./img/8.jpg" alt="">
+                    <img src="./img/f-5.jpg" alt="">
+                </div>
+                <h3>mohammed</h3>
+                <span>Lorem, ipsum dolor.</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas quidem corrupti, quod sit repellendus architecto inventore nemo est incidunt doloremque quo placeat sint dolores vero alias sed? Ratione, iure.</p>
+            </div>
+            <div class="info2">
+                    <h1>today spacial manu</h1>
+                    <img src="./img/1692971276872.jpg" alt="">
+                    <h3>buffer chivken delicious</h3>
+            </div>
+        </div>
+    </div>
+    <!-- end information-->
+    <!-- start about -->
+    <div class="about">
+        <div class="container">
+            <h1>our chifs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eius, nobis itaque accusamus voluptatibus earum!</p>
+            <div class="info">
+                <div class="boxs">
+                    <div class="box">
+                        <img src="./img/1693039797194.jpg" alt="">
+                        <h3>maram asleh</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <img src="./img/1693039797163.jpg" alt="">
+                        <h3>mohammed</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <img src="./img/1693039797179.jpg" alt="">
+                        <h3>abd alfatah</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="boxs" style="display: none;">
+                    <div class="box">
+                        <img src="./img/1693039797163.jpg" alt="">
+                        <h3>rabia</h3>
+                        <p>Lorem ipsum dolor sit amet hello World adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <img src="./img/1693039797179.jpg" alt="">
+                        <h3>Mourise</h3>
+                        <p>Lorem ipsum this is just for read consectetur adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <img src="./img/1693039797194.jpg" alt="">
+                        <h3>kreat</h3>
+                        <p>Lorem ipsum dolor  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="boxs" style="display: none;">
+                    <div class="box">
+                        <img src="./img/1693039797179.jpg" alt="">
+                        <h3>Amjad</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur dolor sit amet adipisicing elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <img src="./img/1693039797194.jpg" alt="">
+                        <h3>Firas</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, repellendus adipisicing elit. Distinctio?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <img src="./img/1693039797163.jpg" alt="">
+                        <h3>samer</h3>
+                        <p>Lorem ipsum dolor sit amet,elit. Distinctio, ipsum dolor sit amet,elit. Distinctio, repellendus?</p>
+                        <ul>
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <ul>
+                <span data-index="0" class="active"></span>
+                <span data-index="1"></span>
+                <span data-index="2"></span>
+            </ul>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start map-->
+    <div class="map">
+    </div>
+    <!-- end map-->
+    <!-- start footer-->
+    <footer>
+        <div class="container">
+            <div class="info1">
+                <h3>main links</h3>
+                <ul class="nav">
+                    <li><a href="#" data-url="informations">home</a></li>
+                    <li><a href="#" data-url="history">about</a></li>
+                    <li><a href="#" data-url="food">services</a></li>
+                    <li><a href="#" data-url="food-manu">our food</a></li>
+                    <li><a href="#" data-url="contact">contact</a></li>
+                </ul>
+            </div>
+            <div class="info2">
+                <h3>food manu</h3>
+                <ul>
+                    <li><a href="#" data-type="all" class="active">all item</a></li>
+                    <li><a href="#" data-type="breakFast">breakFast</a></li>
+                    <li><a href="#" data-type="lunch">lunch</a></li>
+                    <li><a href="#" data-type="dinner">dinner</a></li>
+                    <li><a href="#" data-type="fastFood">fastFood</a></li>
+                </ul>
+            </div>
+            <div class="info3">
+                <h3>location</h3>
+                <p>Lorem ipsum dolor <br> sit amet consectetur adipisicing <br> Ratione ipsa ut illum <br> Lorem ipsum dolor <br> molestias </p>
+            </div>
+            <div class="info4">
+                <h3>newslatter</h3> 
+                <form action="">
+                    <input type="text" name="text" id="" placeholder="Enter Your Message">
+                    <input type="button" value="Send">
+                </form>
+                <p>follow on</p>
+                <ul>
+                    <li><i class="fab fa-linkedin"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer">
+        <div class="container">
+            <span>made with love by abd alfatah-asleh</span>
+        </div>
+    </div>
+    <!-- end footer-->
+
+    <script src="./js.js"></script>
+</body>
+</html>
